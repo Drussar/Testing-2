@@ -44,7 +44,7 @@ public class ContactTest {
     public void tearDown() {
        //(String FName, String LName, String Email, String Phonumber, String Address
         Contact yo = new Contact("Andre","Rodrigues","BLABLA","14151251","Rua do trabalho");
-        assertEquals(yo.getFName(), "Andre");
+        assertEquals(yo.getFName(), "Rodrigues");
     }
 
 }
